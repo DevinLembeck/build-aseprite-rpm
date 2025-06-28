@@ -20,8 +20,8 @@ The script will install required dependencies, download sources, and build the R
 
 ---
 
-**Tested only on Fedora 42.**
-**And Aseprite v1.3.14**
+**Tested only on Fedora 42.**  
+**And with Aseprite v1.3.14**
 
 All rights to Aseprite belong to the original authors.
 
