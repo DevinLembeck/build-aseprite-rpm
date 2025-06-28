@@ -1,0 +1,8 @@
+# ignore everything
+/*
+
+# except
+!aseprite.spec
+!build-aseprite-rpm.sh
+!.gitignore
+!README.md
