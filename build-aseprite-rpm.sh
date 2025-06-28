@@ -70,14 +70,13 @@ tar czf "SOURCES/$TARNAME" --transform "s,^aseprite,aseprite-$VERSION," aseprite
 rpmbuild --define "_topdir $(pwd)" -ba "$SPEC_FILE"
 
 # 7. Find RPM
-RPM_FILE=$(find RPMS/ -name "aseprite-*.rpm" | head -n1)
+RPM_FILE=$(find RPMS/ -name "aseprite-*.rpm" ! -name "*debuginfo*" ! -name "*debugsource*" | head -n1)
 if [ -z "$RPM_FILE" ]; then
     echo "Error: RPM was not created."
     exit 1
 fi
 
 ABS_RPM_FILE=$(readlink -f "$RPM_FILE")
-echo "Finished RPM: $ABS_RPM_FILE"
 echo "The RPM is located here: $ABS_RPM_FILE"
 
 

@@ -24,6 +24,8 @@ The script will install required dependencies, download sources, and build the R
 **And with Aseprite v1.3.14**
 
 All rights to Aseprite belong to the original authors.
+The files created with this script are for private use only and must not be distributed or published.
+
 
 - Support Aseprite: https://www.aseprite.org/
 - Original repository: https://github.com/aseprite/aseprite

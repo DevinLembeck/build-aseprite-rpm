@@ -3,7 +3,7 @@ Version:        1.3.14.3
 Release:        1%{?dist}
 Summary:        Animated sprite editor & pixel art tool
 
-License:        GPL-2.0-or-later
+License:        https://github.com/aseprite/aseprite/blob/main/EULA.txt
 URL:            https://www.aseprite.org/
 Source0:        %{name}-%{version}.tar.gz
 
